@@ -125,6 +125,9 @@ font-family: "Caprasimo", sans-serif;
     color: #4b3f72;
 }
 @media only screen and (min-width: 1440px) {
+.about-wrapper h2 {
+margin-bottom: 32px;
+    }
 .about-container{
 flex-direction: row-reverse;
 justify-content: center;
@@ -176,4 +179,50 @@ font-family: "Caprasimo", sans-serif;
     justify-content: center;
     gap: 20px;
 }
+}
+/* What makes this game actually fun */
+.what-section{
+background: #faf8ff;
+}
+.what-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.what-item{
+border: 1px solid #d0c4f7;
+    border-radius: 24px;
+    padding: 24px;
+    width: 343px;
+    height: 222px;
+background: #e4d9ff;
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 16px;
+}
+.what-item-title{
+font-family: "Caprasimo", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22222;
+    color: #3e1e68;
+}
+.what-item-text{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4b3f72;
+}
+@media only screen and (min-width: 1440px) {
+.what-list{
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+gap: 24px;
+}
+.what-item{
+padding: 32px;
+    width: 360px;
+    height: 238px;
+}  
 }
