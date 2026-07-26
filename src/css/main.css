@@ -74,3 +74,63 @@ line-height: 1.14286;
 width: 210px;
 }    
 }
+/*  About the Game */
+.about-section{
+    background: #faf8ff;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.about-bedge{
+border-radius: 12px;
+    padding: 6px 12px;
+    width: 144px;
+    height: 30px;
+    background: rgba(249, 97, 32, 0.12);
+    font-weight: 700;
+    line-height: 1.28571;
+    color: #f96120;
+    margin-bottom: 4px;
+}
+.about-wrapper h2{
+    text-align: left;
+}
+.about-text{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4b3f72;
+}
+.about-list{
+    margin-top: 4px;
+    display: flex;
+    gap: 32px;
+}
+.about-item{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.about-item-number{
+font-family: "Caprasimo", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #f96120;
+}
+.about-item-text{
+    color: #4b3f72;
+}
+@media only screen and (min-width: 1440px) {
+.about-container{
+flex-direction: row-reverse;
+justify-content: center;
+gap: 60px;
+}
+.about-wrapper{
+width: 614px;
+}    
+}
