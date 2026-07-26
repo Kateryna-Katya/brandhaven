@@ -132,9 +132,9 @@ function initGallerySwiper() {
      * Центральний слайд повністю видно,
      * частини сусідніх слайдів видно зліва та справа.
      */
-    slidesPerView: 1.18,
+    slidesPerView: 'auto',
     centeredSlides: true,
-    spaceBetween: 12,
+    spaceBetween: 24,
 
     loop: true,
     speed: 700,
