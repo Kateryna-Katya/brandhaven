@@ -2,55 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/brandhaven/favicon.svg" />
+    <link rel="icon" type="image/png" href="/brandhaven/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Geist:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <title>Royal Adventure</title>
     <script type="module" crossorigin src="/brandhaven/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/brandhaven/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/brandhaven/assets/styles-Bire4ykH.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container">
+        <div class="home-wrapper">
+            <div class="home-badge">
+                <img src="data:image/png;base64,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" alt="👑 EPIC MATCH-3 FANTASY ADVENTURE" loading="lazy">
+            </div>
+            <h1 class="home-title">Match, Explore, and Restore the Kingdom</h1>
+            <p class="home-text">Every move brings magic back to life.</p>
+            <a class="home-link" href="https://play.google.com/store/apps/details?id=com.dreamspark.royal.adventure&hl=en&gl=us">
+                <p>Play on Google Play</p>
+            </a>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
