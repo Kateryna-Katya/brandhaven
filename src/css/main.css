@@ -447,3 +447,26 @@ gap: 16px;
     gap: 12px;
 } 
 }
+/* Stay Connected */
+.contact-section h2{
+color: #f1edff;
+margin-bottom: 24px;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 1px solid #ffd700;
+        border-radius: 30px;
+        padding: 12px 24px;
+        width: 276px;
+        height: 46px;
+font-family: "Caprasimo", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22222;
+    color: #f1edff;
+    margin-left: auto;
+    margin-right: auto;
+}
