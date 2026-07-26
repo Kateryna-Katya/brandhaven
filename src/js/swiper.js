@@ -159,7 +159,7 @@ function initFeedbackSwiper() {
   feedbackSwiper = new Swiper(swiperElement, {
     modules: [Autoplay, Pagination],
 
-    slidesPerView: 1.2,
+    slidesPerView: 1.4,
     spaceBetween: 16,
 
     loop: true,

@@ -413,3 +413,37 @@ width: 220px;
     gap: 24px;
  }
 }
+/* Player Feedback */
+.feedback-section h2{
+    color: #ffd700;
+}
+.feedback-swiper .swiper-slide{
+border: 1px solid rgba(255, 215, 0, 0.24);
+    border-radius: 32px;
+    padding: 16px;
+    width: 238px;
+    height: 158px;
+background: #1c1436;
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 16px;
+}
+.feedback-slide-text{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.feedback-slide-author{
+    font-size: 16px;
+    line-height: 1.5;
+    background: linear-gradient(180deg, #ec4899 0%, #9d174d 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media only screen and (min-width: 1440px) {
+.feedback-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 12px;
+} 
+}
