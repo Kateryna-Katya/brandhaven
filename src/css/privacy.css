@@ -1,0 +1,95 @@
+@import url('./styles.css');
+
+.background {
+    background: #f8f9fa;
+    text-align: left;
+    color: #1a1a1a;
+}
+
+.privacy-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #1a1a1a;
+    text-align: left;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.27273;
+    color: #1a1a1a;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #1a73e8;
+
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.text {
+    margin-top: 16px;
+}
+
+.policy-number {
+    padding-left: 20px;
+}
+
+
+.policy-span {
+    color: #0095ff;
+}
+
+.span-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .policy-container {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .privacy-title {
+        margin-top: 20px;
+    }
+
+}
