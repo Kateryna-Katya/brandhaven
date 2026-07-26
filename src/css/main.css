@@ -134,3 +134,46 @@ gap: 60px;
 width: 614px;
 }    
 }
+/* Here's how it works */
+.how-section h2{
+color: #ffd700;
+}
+.how-swiper .swiper-slide{
+border: 1px solid #ffd700;
+    border-radius: 16px;
+    padding: 24px;
+    width: 240px;
+    height: 210px;
+background: #1c1436;
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 16px;
+}
+.how-slide-number{
+border-radius: 24px;
+    width: 48px;
+    height: 48px;
+background: #ffd700;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Caprasimo", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22222;
+    color: #3e1e68;
+}
+.how-slide-title{
+font-family: "Caprasimo", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22222;
+    color: #f1edff;
+}
+@media only screen and (min-width: 1440px) {
+.how-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 20px;
+}
+}
